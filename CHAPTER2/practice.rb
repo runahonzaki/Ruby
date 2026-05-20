@@ -20,10 +20,10 @@ puts "コーヒー：#{coffee}円"
 puts "合計：#{coffee + espresso*2}円"
 
 # Q7
-coffee=400
+coffee=gets
 espresso=100
-puts "コーヒー：#{coffee}円"
-puts "合計：#{coffee + espresso*2}円"
+puts "コーヒー：#{coffee.to_i}円"
+puts "合計：#{coffee.to_i + espresso*2}円"
 
 # Q8
 total = 300 * 2
